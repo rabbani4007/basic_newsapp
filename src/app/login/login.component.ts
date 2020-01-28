@@ -19,7 +19,7 @@ export class LoginComponent implements OnInit {
     })
   }
 
-  get f(){ return this.loginForm.controls;}
+  get f(){ return this.loginForm.controls;} 
   login(){
     this.submitted = true;
 
