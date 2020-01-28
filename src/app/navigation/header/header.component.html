@@ -1,0 +1,14 @@
+<mat-toolbar  color="primary"  class="fixed-header">
+    <mat-toolbar-row>
+    <span>
+        My News App
+        <!-- <img  src="./assets/logo.png"  style="width:50px;"> -->
+    </span>
+    <a  mat-button  routerLink="/dashboard"  routerLinkActive="active">Dashboard</a>
+    <a  mat-button  routerLink="/news">News</a>
+    <a  mat-button  routerLink="/login">Login</a>
+    </mat-toolbar-row>
+</mat-toolbar>
+    <main>
+    <router-outlet  style="margin-top: 80px;"></router-outlet>
+</main>
