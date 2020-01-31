@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class DashboardComponent implements OnInit {
 
   constructor() { }
-
+  categories=['business','entertainment', 'general','health','science', 'sports', 'technology'];
   ngOnInit() {
   }
 
